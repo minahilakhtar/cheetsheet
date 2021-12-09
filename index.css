@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* utiltily */
+:root{
+    --font1: 'Potta One', cursive;
+    --font2: 'Roboto', sans-serif;
+}
+
+
+.logo img{
+    width: 32px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 3px 10px;
+    margin: 2px 25px;
+}
+nav{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272822;
+    color: white;
+    height: 56px;
+}
+
+.content{
+    font-family: var(--font1);
+}
+.content span{
+    color: #F92458;
+}
+
+.container{
+    width: 60vw;
+    padding: 32px 0;
+    margin: auto;
+    font-family: var(--font2);
+    font-weight: bold;
+}
+.toolbar-item button{
+    cursor: pointer !important;
+    color: white !important;
+    border: 3px solid white !important;
+    border-radius: 10px !important;
+    padding: 2px 16px !important;
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+.footer span{
+    color: #F92458;
+    font-size: 20px;
+}
+.footer p{
+    padding-top: 28px;
+}
